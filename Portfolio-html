@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script src="https://kit.fontawesome.com/8d509b82c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#header" class="scroll-up"><i class="fa-solid fa-chevron-up"></i></a>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo-media"><img class="logo" src="Screenshot_2024-01-01_at_12.22.20_PM-removebg-preview.png "></div>
+                <center><button class="menu-toggle"><i class="fa-solid fa-bars"></i></button></center>
+                <ul class="nav-list">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#works">Work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <section class="main">
+            <div class="header-text">
+                <h1>
+                    <span class="text first-text">Myself Sahir
+                        <br>
+                        I'm 
+                    </span>
+                    <span class="text sec-text"></span>
+                </h1>
+            </div>
+            <div class="right-section">
+                <img class="working-gif" src="coworking-male-programmer-writing-program-code.gif">
+            </div>
+        </section>
+        </div>
+    </div>
+
+    <!--header is done above-->
+    <!--now we do the about page-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img class="about-img" src="fin-gif (1).gif">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p style="margin-bottom: 10px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quia iusto aliquam vel ab perferendis deserunt quod sit officiis? Beatae adipisci optio est et! Laborum tempora esse fuga praesentium architecto!
+                    Nihil iure at reprehenderit optio ipsa rerum, modi sunt vero eius dolorum, libero veniam, ex nostrum mollitia quas. Est, saepe explicabo. Nihil, illum odit excepturi quaerat aspernatur magnam id repellat!
+                </p>
+                <a href="" class="more-info">More About Me..</a>
+            </div>
+        </div>
+        </div>
+
+    </div>
+<!--above section is of the about section-->
+<!--now we do the skills section-->
+<div id="skills">
+    <div class="container">
+        <h1 class="skills-head"><center>My Skills</center></h1>
+        <div class="services-list">
+            <div class="frontend-skills">
+                <h2 style="margin-top: 4px;"><center>Frontend Skills</center></h2>
+                <center>
+                <button class="skill-1">HTML</button>
+                <button class="skill-2">CSS</button>
+                <button class="skill-3">JavaScript</button>
+                <br>
+                <button>lorem</button>
+                <button>lorem</button>
+                </center>
+            </div>
+            <div class="backend-skills">
+                <h2 style="margin-top: 4px;"><center>Backend Skills</center></h2>
+                <center>
+                    <button class="skill-1">SQL</button>
+                    <button class="skill-2">Python</button>
+                    <button class="skill-3">C++</button>
+                    <br>
+                    <button>C#</button>
+                    <button>C Language</button>
+                    </center>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of skills section -->
+<!-- going to work section -->
+<div id="works">
+    <div class="container">
+        <h1 class="works-head">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I Make Web design,I also make portfolio websites,still learning</p>
+                <a href="https://linktr.ee/sahir.dev" target="_blank">learn more</a>
+            </div>
+            <div class="work">
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>game Dev</h2>
+                <p>I do game development,I also make my own games,still learning</p>
+                <a href="https://play.google.com/store/apps/dev?id=4613259801736908573" target="_blank">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<center><a href="" download class="cv-btn">Download CV</a></center>
+<!-- end of work section -->
+<!-- going to contact section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="contact-head">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sahir150305@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 897637897</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sahir.exe/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shaik-ahamed-sahir-672562253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://play.google.com/store/apps/dev?id=4613259801736908573" target="_blank"><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    
+                    <center><button type="submit" class="submit-button">
+                        submit
+                    </button>
+                </center>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p class="copyright-text">
+            copyright <i class="fa-regular fa-copyright"></i> by Sahir.
+        </p>
+    </div>
+</div>
+
+
+
+<!--end of html-->
+    <script>
+        const text = document.querySelector(".sec-text");
+const phrases = ["a Student", "a Game Dev", "a Web Developer"];
+let phraseIndex = 0;
+let letterIndex = 0;
+
+const type = () => {
+    if (letterIndex < phrases[phraseIndex].length) {
+        text.textContent += phrases[phraseIndex].charAt(letterIndex);
+        letterIndex++;
+        setTimeout(type, 200); // Adjust the speed by changing the timeout value (in milliseconds)
+    } else {
+        setTimeout(erase, 1500); // Wait before erasing the text
+    }
+};
+
+const erase = () => {
+    if (letterIndex > 0) {
+        text.textContent = phrases[phraseIndex].substring(0, letterIndex - 1);
+        letterIndex--;
+        setTimeout(erase, 50); // Adjust the speed by changing the timeout value (in milliseconds)
+    } else {
+        phraseIndex = (phraseIndex + 1) % phrases.length; // Move to the next phrase
+        setTimeout(type, 500); // Wait before typing the next phrase
+    }
+};
+
+type(); // Start the typing effect
+
+    </script>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navList = document.querySelector('.nav-list');
+
+        menuToggle.addEventListener('click', () => {
+        navList.classList.toggle('active'); // Toggle the 'active' class
+    });
+
+        // Check on page load and window resize
+        function checkWidth() {
+        if (window.innerWidth <= 767) {
+            navList.classList.remove('active');
+        }
+        else {
+        navList.classList.add('active');
+        }
+    }
+
+        window.addEventListener('DOMContentLoaded', checkWidth); // Check on page load
+        window.addEventListener('resize', checkWidth); // Check on window resize
+    </script>
+    <!-- above is js for hamburger icon on phones -->
+    <!-- now we do tab links for li elements -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname, event) 
+
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <!-- above js is for tab-links/movement of html  -->
+    <!-- now we do js for contact form to google sheets -->
+    
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxiKfSPzl3gNp11NaNQJBp1gklRcsXvIJXH7ehROfWbXxmLk8FbbRbbS_8Y-MOF80BXYw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ":)"
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
